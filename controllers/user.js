@@ -2,7 +2,7 @@
 
 var validator = require('validator');
 var User = require('../models/user');
-var bcrypt = require('bcrypt');
+var bcrypt = require('bcryptjs');
 var fs = require('fs');
 var path = require('path');
 var jwt = require('../services/jwt');
